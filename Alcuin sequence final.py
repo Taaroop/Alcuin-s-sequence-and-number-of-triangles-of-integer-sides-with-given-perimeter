@@ -24,7 +24,7 @@ def taaroop(n):
         double -= 1
         equi = 1
 
-    distinct_unordered = (ordered - (3*double))/6
+    distinct_unordered = (ordered - (3*double) - equi)/6
     total_unordered = distinct_unordered + double + equi
     c_max = math.ceil(n/2)
     sum_a_b = n-c_max
